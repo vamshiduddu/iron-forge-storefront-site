@@ -1,24 +1,148 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iron-forge-storefront-site</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitGear Pro - Premium Gym Equipment</title>
+    <meta name="description" content="Professional gym equipment supplier offering premium fitness solutions for home and commercial use">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>FitGear Pro</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="equipment.html" class="nav-link">Equipment</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-    <meta property="og:title" content="iron-forge-storefront-site" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="greeting-container">
+                <p id="greeting-message" class="greeting"></p>
+            </div>
+            <h1 class="hero-title">Transform Your Fitness Journey</h1>
+            <p class="hero-description">
+                Discover premium gym equipment designed to elevate your workout experience. 
+                From professional-grade machines to essential accessories, we have everything you need.
+            </p>
+            <div class="hero-buttons">
+                <a href="equipment.html" class="btn btn-primary">Shop Equipment</a>
+                <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="equipment-showcase">
+                <div class="equipment-card">
+                    <h3>Cardio Equipment</h3>
+                    <p>Treadmills, bikes, ellipticals</p>
+                </div>
+                <div class="equipment-card">
+                    <h3>Strength Training</h3>
+                    <p>Weights, machines, racks</p>
+                </div>
+                <div class="equipment-card">
+                    <h3>Accessories</h3>
+                    <p>Mats, bands, tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose FitGear Pro?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Premium Quality</h3>
+                    <p>Commercial-grade equipment built to last with industry-leading warranties</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Free Delivery</h3>
+                    <p>Complimentary delivery and professional installation on all major equipment</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Expert Support</h3>
+                    <p>Dedicated customer service and technical support from fitness professionals</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💪</div>
+                    <h3>Proven Results</h3>
+                    <p>Trusted by gyms, athletes, and fitness enthusiasts worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Upgrade Your Fitness Setup?</h2>
+                <p>Get expert advice on the perfect equipment for your fitness goals</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Get Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FitGear Pro</h3>
+                    <p>Your trusted partner in fitness equipment solutions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="equipment.html">Equipment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@fitgearpro.com</p>
+                    <p>📞 1-800-FIT-GEAR</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitGear Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
 </html>
